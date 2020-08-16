@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ <ImageView
+     android:layout_width="150dp"
+     android:layout_height="150dp"
+     android:src="@drawable/tony_stark"
+     android:layout_margin="15dp"
+     android:id="@+id/imgTonyStack"/>
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:text="Tony Stark"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_toRightOf="@+id/imgTonyStack"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        android:layout_toRightOf="@+id/imgTonyStack"
+        android:layout_below="@+id/txtName"
+        android:layout_marginTop="20dp"
+        android:text="tonystark@gmail.com"/>
+    <TextView
+        android:id="@+id/txtPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imgTonyStack"
+        android:layout_below="@+id/txtEmail"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:text="+91 12345  "/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MORE INFORMATION"
+        android:layout_below="@+id/imgTonyStack"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#0000ff"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="END"
+        android:layout_alignParentBottom="true"
+        android:textColor="#0000ff"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+</RelativeLayout>
